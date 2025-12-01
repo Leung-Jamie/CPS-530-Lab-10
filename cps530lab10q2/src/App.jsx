@@ -61,6 +61,8 @@ function App() {
         </p>
       </div>
 
+      <h2>Difficulties</h2>
+
       <div class="difficulties">
         <p>
           The difficulties I experienced while doing this lab was only with the hosting and deployment of the site. 
