@@ -1,8 +1,64 @@
+body {
+  background-color: #f4f7f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #1f4d31; 
+}
+
+.page_creation,
+.edit_page,
+.difficulties {
+  background-color: #ffffff;
+  border: 2px solid #1f4d31; 
+  border-radius: 12px;
+  padding: 25px;
+  margin: 25px auto;
+  max-width: 900px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.page_creation:hover,
+.edit_page:hover,
+.difficulties:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.page_creation p,
+.edit_page p,
+.difficulties p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+pre {
+  background-color: #1f4d31;     
+  color: #ffffff;              
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.95rem;
+  margin: 15px 0;
+}
+
+footer {
+  margin-top: 40px;
+  color: #1f4d31;
 }
 
 .logo {
@@ -33,10 +89,4 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
