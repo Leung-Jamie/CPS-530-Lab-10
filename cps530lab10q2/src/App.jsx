@@ -74,7 +74,7 @@ function App() {
       </div>
 
       <footer>
-        © 2025 - CPS 530 Lab 10 - Vite + React Demo
+        © 2025 - CPS 530 Lab 10 - Vite + React
       </footer>
     </>
   )
